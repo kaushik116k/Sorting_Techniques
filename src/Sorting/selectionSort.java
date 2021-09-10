@@ -1,9 +1,9 @@
 package Sorting;
 import java.util.*;
+// time complexity selection sort is O(n^2).
 public class selectionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         // the following steps(8-14) are used to create an array
         System.out.println("Enter the size of array");
         int n = sc.nextInt();
